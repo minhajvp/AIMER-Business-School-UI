@@ -169,3 +169,4 @@ npm start
 
 Designed and developed for **AIMER Business School**, Markaz Knowledge City, Calicut, Kerala, India.  
 Proprietary institutional UI codebase. All rights reserved.
+

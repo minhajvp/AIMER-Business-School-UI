@@ -228,3 +228,4 @@ Audited and verified with Google Chrome DevTools Lighthouse:
 2. **Server Components by Default**: Over 70% of components are pure React Server Components, eliminating hydration cost for presentational content.
 3. **Passive rAF Scroll Listeners**: Scroll-reactive animations are throttled through `requestAnimationFrame` with passive event listeners to maintain 60 FPS scrolling.
 4. **Static Route Pre-rendering**: All 11 pages compile to static HTML at build time (`○ (Static)`), ready for instant CDN edge delivery.
+
