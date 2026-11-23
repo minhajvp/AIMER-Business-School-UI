@@ -1,0 +1,80 @@
+import { MethodPhase } from '@/types';
+
+export const methodPhasesData: MethodPhase[] = [
+  {
+    number: '01',
+    phase: 'Phase 01',
+    title: 'Immersion & Deconstruction',
+    subtitle: 'Contextual Case Studies & Masterclasses',
+    description: 'We discard passive theoretical lectures. Cohorts dissect real corporate balance sheets, operational crises, and growth strategies led directly by visiting entrepreneurs and active CXOs.',
+    deliverables: [
+      'Harvard & Ivey business case methodology',
+      'Zero textbook memorization; 100% contextual inquiry',
+      'Direct instruction from operating CEOs and founders',
+      'Dynamic financial modeling and risk simulation',
+    ],
+    metric: '100+',
+    metricLabel: 'Industry mentors engaged',
+  },
+  {
+    number: '02',
+    phase: 'Phase 02',
+    title: 'Venture Build & Prototyping',
+    subtitle: 'Venture Launchpad & Customer Discovery',
+    description: 'Ideas without market validation are worthless. In our campus incubator, student founders build MVP prototypes, run customer discovery sprints, and test actual unit economics.',
+    deliverables: [
+      'Rapid prototype validation with target users',
+      'Dedicated on-campus venture incubation lab',
+      'No-code & full-stack commercial toolkits',
+      'Access to seed acceleration and demo days',
+    ],
+    metric: '12+',
+    metricLabel: 'Active campus startups',
+  },
+  {
+    number: '03',
+    phase: 'Phase 03',
+    title: 'Corporate Residency',
+    subtitle: 'Up to 12 Months of Paid Corporate Work',
+    description: 'Not a cosmetic 2-week observation stint. Students spend up to a full year embedded inside corporate partner teams, owning measurable KPIs and drawing monthly stipends.',
+    deliverables: [
+      'Full-time placement inside 74+ recruiting partners',
+      'Performance-driven evaluations by corporate managers',
+      'Real responsibility across finance, growth, and supply chain',
+      'Monthly stipends up to ₹50,000 during residency',
+    ],
+    metric: '₹50,000',
+    metricLabel: 'Peak monthly stipend',
+  },
+  {
+    number: '04',
+    phase: 'Phase 04',
+    title: 'Cross-Border Immersion',
+    subtitle: 'Dubai Future Foundation & Global Corridors',
+    description: 'Business leadership is intrinsically global. Every cohort travels to international trade and financial hubs, engaging with overseas venture funds, multinational HQs, and free trade zones.',
+    deliverables: [
+      'DIFC (Dubai International Financial Centre) delegations',
+      'Visits to Dubai Future Foundation innovation ecosystems',
+      'Singapore & Gulf cross-border market entry mechanics',
+      'Exclusive networking with expatriate business leaders',
+    ],
+    metric: '100%',
+    metricLabel: 'Global cohort participation',
+  },
+  {
+    number: '05',
+    phase: 'Phase 05',
+    title: 'High-Impact Launch',
+    subtitle: 'Pre-Placement Offers & Enterprise Careers',
+    description: 'The culmination is tangible: graduating with pre-placement offers (PPOs) into high-trajectory corporate careers, or launching a revenue-generating venture backed by seed capital.',
+    deliverables: [
+      'High conversion rate into full-time managerial positions',
+      'Alumni-backed angel funding for standout ventures',
+      '100% dedicated placement support across all tracks',
+      'Lifelong access to the AIMER executive network',
+    ],
+    metric: '₹14.5 LPA',
+    metricLabel: 'Peak career package',
+  },
+];
+
